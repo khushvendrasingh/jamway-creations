@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jamway Creations</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(to right, #1e3c72, #2a5298);
+      color: #fff;
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+
+    header {
+      padding: 3rem 2rem;
+      text-align: center;
+      background: linear-gradient(45deg, #fc466b, #3f5efb);
+      animation: fadeIn 2s ease-in-out;
+    }
+
+    header h1 {
+      font-size: 3.5rem;
+      color: #fff;
+      animation: slideIn 1s ease-out;
+    }
+
+    header p {
+      font-size: 1.3rem;
+      color: #eee;
+      margin-top: 0.5rem;
+    }
+
+    section {
+      padding: 4rem 2rem;
+      max-width: 1000px;
+      margin: auto;
+      animation: fadeUp 1.5s ease-in-out;
+    }
+
+    h2 {
+      font-size: 2rem;
+      color: #ffd700;
+      margin-bottom: 1rem;
+      position: relative;
+    }
+
+    h2::after {
+      content: '';
+      position: absolute;
+      width: 50px;
+      height: 4px;
+      background: #ffd700;
+      left: 0;
+      bottom: -10px;
+    }
+
+    p, li {
+      font-size: 1.1rem;
+      color: #f2f2f2;
+    }
+
+    ul {
+      list-style: disc;
+      padding-left: 1.5rem;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 1.5rem;
+      padding: 0.9rem 1.7rem;
+      background: linear-gradient(90deg, #ff6a00, #ee0979);
+      color: #fff;
+      text-decoration: none;
+      border-radius: 30px;
+      font-weight: bold;
+      transition: all 0.4s ease;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    .btn:hover {
+      transform: scale(1.05);
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background: linear-gradient(to right, #1f4037, #99f2c8);
+      font-size: 0.95rem;
+      color: #000;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(-20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(40px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes slideIn {
+      0% { transform: translateX(-100%); opacity: 0; }
+      100% { transform: translateX(0); opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Jamway Creations</h1>
+    <p style="margin-top: 0.5rem; font-size: 1rem; color: #f8f8f8; font-style: italic;">By Khushvendra Singh Nathawat</p>
+    <p>Crafting digital experiences that shine.</p>
+  </header>
+
+  <section>
+    <h2>About Us</h2>
+    <p>We are a creative web development team dedicated to building beautiful and functional websites that help you grow your brand and online presence.</p>
+  </section>
+
+  <section>
+    <h2>Services</h2>
+    <ul>
+      <li>Responsive Website Design</li>
+      <li>Custom Web Development</li>
+      <li>Portfolio & Business Websites</li>
+      <li>SEO Optimization</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Contact</h2>
+    <p>Let's work together on your next project!</p>
+    <a class="btn" href="https://wa.me/918058893358" target="_blank">Chat on WhatsApp</a>
+  </section>
+
+  <footer>
+    &copy; 2025 Jamway Creations. All rights reserved.
+  </footer>
+</body>
+</html>
